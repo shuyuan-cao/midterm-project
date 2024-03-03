@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head part -->
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <script src="js/sub.js"></script>
+  <script src="js/checkHome.js"></script>
+  <!-- Nav Bar -->
+  <nav id="nav">
+    <div class="nav-container">
+      <img class="circle-logo" src="imgs/logos/circle.svg" alt="A logo with the word 'circle'" />
+      <ul class="nav-li">
+        <li onClick="checkHomepage()">Home</li>
+        <li><a href="pages/home.html">Projects</a></li>
+        <li><a href="#cta-section">Services</a></li>
+      </ul>
+      <a href="pages/contact.html" class="btn btn-std contact-link">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-col">
+        <h1>Empower Your <br>Business With <br>Stunning Design!</h1>
+        <p>
+          Circle is a digital design and development studio. <br>We design and
+          develop astonishing websites <br>and mobile apps.
+        </p>
+        <div class="hero-btns">
+          <a class="btn btn-std" href="#cta-section">Get in touch</a>
+          <a class="btn btn-std btn-transparent">See our work</a>
+        </div>
+      </div>
+      <div class="hero-col">
+        <div class="img-credit">
+          <img src="imgs/hero-section/card-1.png" alt="A blue credit card" />
+        </div>
+        <div class="img-hero">
+          <img src="imgs/hero-section/hero-image.png" alt="A smiling man with his arms crossed" />
+        </div>
+        <div class="img-thum">
+          <img src="imgs/hero-section/card-1.png" alt="An emoji of thum up" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Section -->
+  <section id="client-section">
+    <div class="client-row">
+      <a href="https://www.airbnb.com " target="_blank">
+        <img class="img-airbnb" src="imgs/logos/airbnb-logo.svg" alt="Logo of Airbnb" />
+      </a>
+      <a href="https://www.google.com" target="_blank">
+        <img class="img-google" src="imgs/logos/google-logo.svg" alt="Logo of Google" />
+      </a>
+      <a href="https://www.microsoft.com" target="_blank">
+        <img class="img-micro" src="imgs/logos/microsoft-logo.svg" alt="Logo of Microsoft" />
+      </a>
+      <a href="https://www.fedex.com/es-es/home.html" target="_blank">
+        <img class="img-fedex" src="imgs/logos/fedex-logo.svg" alt="Logo of FedEx" />
+      </a>
+      <a href="https://www.amazon.com" target="_blank">
+        <img class="img-amazon" src="imgs/logos/amazon-logo.svg" alt="Logo of Amazon" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section id="project-section">
+    <div class="project-title">
+      <h3>Recent Projects</h3>
+    </div>
+    <div class="project-intro">
+      <div class="project-card project-simplify">
+        <div class="project-card-img">
+          <img src="imgs/projects-section/1-1.jpg" alt="An image is divided into different colorful shapes" />
+        </div>
+        <div class="project-card-txt">
+          <p class="simplify-title">Simplify</p>
+          <p class="simplify-ui">UI Design & App Development</p>
+          <a class="simplify-btn" href="/pages/project.html">Learn more</a>
+        </div>
+      </div>
+      <div class="project-card project-dashcoin">
+        <div class="project-card-img">
+          <img src="imgs/projects-section/2.jpg" alt="A colorful image contains various circle shapes" />
+        </div>
+        <div class="project-card-txt">
+          <p class="dashcoin-title">Dashcoin</p>
+          <p class="dashcoin-web">Web Development</p>
+          <a class="dashcoin-btn" href="/pages/project.html">Learn more</a>
+        </div>
+      </div>
+      <div class="project-card project-vec">
+        <div class="project-card-img">
+          <img src="imgs/projects-section/3.jpg" alt="A colorful image contains various circle shapes" />
+        </div>
+        <div class="project-card-txt">
+          <p class="vec-title">Vectorify</p>
+          <p class="vec-ux">User Experience Design</p>
+          <a class="vec-btn" href="/pages/project.html">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section id="testi-section">
+    <div class="testi-container">
+      <div class="first-emoji">
+        <img src="imgs/testimonial-section/memoji-1.png" alt="An emoji of a smiling girl with a pray gesture" />
+        <img src="imgs/testimonial-section/memoji-3.png" alt="An emoji of a smiling man
+          giving a thumbs up" />
+      </div>
+      <div class="testi-content">
+        <h3 class="testi-title">Hear What Our Clients Have to Say</h3>
+        <p class="testi-parag">
+          "Circle helped us through every stage of our startup. <br />We
+          really enjoyed working with you."
+        </p>
+
+        <div class="testi-imgtxt">
+          <img src="imgs/testimonial-section/profile.png" />
+          <div class="testi-profile-name">
+            <p class="profile-kristin">Kristin Watson</p>
+            <p class="profile-booking">Booking.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="second-emoji">
+        <img src="imgs/testimonial-section/memoji-2.png" alt="An emoji of a
+            smiling man who blinks his eyes" />
+        <img src="imgs/testimonial-section/memoji-4.png" alt="An emoji of a women who is celebrating" />
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services-section">
+    <div class="services-title">
+      <div class="services-title">Our Services</div>
+    </div>
+    <div class="services-intro">
+      <div class="services-ui">
+        <img src="imgs/services-section/icons/1.svg" alt="A pen icon with blue color">
+        <p class="ui-title">User Interface Design</p>
+        <p class="ui-txt">Circle provides with a <br>stunning user interface design <br>that is accessible to
+          everyone.</p>
+        <a class="ui-btn" tag="_blank">Learn more</a>
+      </div>
+      <div class="services-ux">
+        <img src="imgs/services-section/icons/2.svg" alt="An arrow icon with blue color">
+        <p class="ux-title">User Experience Design</p>
+        <p class="ux-txt">Circle always focuses on <br>deliverying the best user <br>experience to your
+          customer.</p>
+        <a class="ux-btn" tag="_blank">Learn more</a>
+      </div>
+      <div class="services-web">
+        <img src="imgs/services-section/icons/3.svg" alt="An arrow icon with blue color">
+        <p class="web-title">Application Development</p>
+        <p class="web-txt">We develop high-quality mobile <br>and web applications using the <br>latest
+          technology stack.</p>
+        <a class="web-btn" tag="_blank">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta-section">
+    <div class="cta-container">
+      <div class="cta-txt">
+        <h3 class="cta-title">Do you have any questions?</h3>
+        <p>Let us help you!</p>
+      </div>
+      <div class="cta-subs">
+        <input id="email-input" class="email-input" type="email" placeholder="Enter your email">
+        <a>
+          <button class="btn btn-std btn-cta">Subscribe</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer-section">
+    <div class="footer-container">
+      <div class="company-info">
+        <img class="circle-logo" src="imgs/logos/circle.svg" alt="A logo with the word 'circle'" />
+        <p> 2972 Westheimer Rd. Santa Ana, <br>Illinois 85486</p>
+      </div>
+      <div class="rest-info">
+        <div class="rest-col-first">
+          <p>Team</p>
+          <p>Services</p>
+          <p>About us</p>
+        </div>
+        <div class="rest-col-second">
+          <p>Press</p>
+          <p>Projects</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
